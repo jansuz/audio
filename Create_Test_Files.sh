@@ -48,6 +48,6 @@ faac --overwrite -w 01/track$1.cdda.wav -o 04/track$1.cdda.m4a
 # Apple Lossless Works
 # See: https://macosforge.github.io/alac/
 #
-alacconvert 01/track$1.cdda.wav -o 04/track$1.cdda.caf
+alacconvert 01/track$1.cdda.wav 05/track$1.cdda.caf
 
 # EOF
